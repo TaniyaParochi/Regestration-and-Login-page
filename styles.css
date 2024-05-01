@@ -76,3 +76,29 @@ input[type="submit"]:hover {
     font-size: 14px;
     margin-top: 5px;
 }
+
+/* Login option */
+.login-option {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-option p {
+    display: inline-block; /* Ensure inline-block for proper alignment */
+    vertical-align: middle; /* Align vertically with other elements */
+    margin: 10px 0 0; /* Adjust margins as needed */
+}
+
+.login-option a {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #00ff73;
+    color: #030303;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.login-option a:hover {
+    background-color: #f550dc;
+}
