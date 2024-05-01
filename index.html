@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Vendor Registration</h2>
+        <h2>Customer Registration</h2>
         <form id="registrationForm" action="register.php" method="POST" enctype="multipart/form-data" onsubmit="return validateForm()">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
@@ -49,6 +49,9 @@
             <span id="documentNameError" class="error"></span>
             
             <input type="submit" value="Register">
+            <div class="login-option">
+                <p>Already registered? <a href="login.html">Go to Login Page</a></p>
+            </div>
         </form>
     </div>
 
